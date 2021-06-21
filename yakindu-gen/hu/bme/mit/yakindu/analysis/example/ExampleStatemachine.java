@@ -44,6 +44,16 @@ public class ExampleStatemachine implements IExampleStatemachine {
 			this.blackTime = value;
 		}
 		
+		private long testvar;
+		
+		public long getTestvar() {
+			return testvar;
+		}
+		
+		public void setTestvar(long value) {
+			this.testvar = value;
+		}
+		
 		protected void clearEvents() {
 			start = false;
 			white = false;
@@ -87,6 +97,8 @@ public class ExampleStatemachine implements IExampleStatemachine {
 		sCInterface.setWhiteTime(60);
 		
 		sCInterface.setBlackTime(60);
+		
+		sCInterface.setTestvar(1);
 	}
 	
 	public void enter() {
@@ -229,6 +241,14 @@ public class ExampleStatemachine implements IExampleStatemachine {
 	
 	public void setBlackTime(long value) {
 		sCInterface.setBlackTime(value);
+	}
+	
+	public long getTestvar() {
+		return sCInterface.getTestvar();
+	}
+	
+	public void setTestvar(long value) {
+		sCInterface.setTestvar(value);
 	}
 	
 	/* Entry action for state 'Black'. */
