@@ -40,6 +40,8 @@ public class Main {
 		
 		// check if statechart has trap state
 		hasTrap(s);
+		// check if statechart has nameless state and advise name for that
+		adviseName(s);
 		
 		// Transforming the model into a graph representation
 		String content = model2gml.transform(root);
@@ -55,6 +57,36 @@ public class Main {
 				State state = (State) obj;
 				if (state.getOutgoingTransitions().isEmpty() == true) {
 					System.out.println(state.getName()+" is a trap state!");
+				}
+			}
+		}
+	}
+	
+	public static boolean checkname(Statechart s, String name) {
+		TreeIterator<EObject> it = s.eAllContents();
+		while (it.hasNext()) {
+			EObject obj = it.next();
+			if(obj instanceof State) {
+				State state = (State) obj;
+				if (state.getName().equals(name)) {
+					System.out.println("Statechart has an identical state name: " +name);
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	public static void adviseName(Statechart s) {
+		TreeIterator<EObject> it = s.eAllContents();
+		while (it.hasNext()) {
+			EObject obj = it.next();
+			if(obj instanceof State) {
+				State state = (State) obj;
+				if (state.getName().isEmpty() == true) {
+					String name = "from_"+state.getIncomingTransitions().get(0).getSource().getName()+"_to_"+state.getOutgoingTransitions().get(0).getTarget().getName();
+					checkname(s, name);
+					System.out.println("Found a nameless state. Advise name: " +name);
 				}
 			}
 		}
