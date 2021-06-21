@@ -100,13 +100,16 @@ public class Main {
 				EventDefinition event = (EventDefinition) obj;
 				String eventname = event.getName();
 				String raisename = eventname.substring(0, 1).toUpperCase().concat(eventname.substring(1));
-				if (first)
+				if (first) {
 					System.out.println("if (next.equals(\""+eventname+"\")) {");
+					first = false;
+				}
 				else
 					System.out.println("} else if (next.equals(\""+eventname+"\")) {");
 				System.out.println("s.raise"+raisename+"();");
 				System.out.println("s.runCycle();");
 				System.out.println("print(s);");
+				
 			}
 		}
 		System.out.println("} else if (next.equals(\"exit\")) {");

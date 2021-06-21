@@ -1178,43 +1178,6 @@ graph
 			id	33
 			graphics
 			[
-				w	161.70000000000002
-				h	54
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"o33: Transition"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	specification = yes
-	documentation = 
-	"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
-			id	34
-			graphics
-			[
 				w	169.4
 				h	138
 				type	"rectangle"
@@ -1224,7 +1187,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o34: State"
+				text	"o33: State"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1255,7 +1218,7 @@ graph
 	
 	node
 		[
-			id	35
+			id	34
 			graphics
 			[
 				w	147.4
@@ -1267,7 +1230,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o35: SimpleScope"
+				text	"o34: SimpleScope"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1290,7 +1253,7 @@ graph
 	
 	node
 		[
-			id	36
+			id	35
 			graphics
 			[
 				w	177.10000000000002
@@ -1302,7 +1265,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o36: Transition"
+				text	"o35: Transition"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1327,7 +1290,7 @@ graph
 	
 	node
 		[
-			id	37
+			id	36
 			graphics
 			[
 				w	182.60000000000002
@@ -1339,7 +1302,42 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o37: ReactionTrigger"
+				text	"o36: ReactionTrigger"
+				outline	"#000000"
+				fill	"#FFFFFF"
+				fontSize	16
+				fontName	"Monospace"
+				autoSizePolicy	"node_width"
+				anchor	"t"
+				borderDistance	0.0
+			]
+			LabelGraphics
+			[
+				text	"
+	"
+				fontSize	14
+				fontName	"Consolas"
+				alignment	"left"
+				anchor	"tl"
+				borderDistance	6
+			]
+		]
+	
+	node
+		[
+			id	37
+			graphics
+			[
+				w	191.4
+				h	26
+				type	"rectangle"
+				fill	"#FFFFFF"
+				fill2	"#FFFFFF"
+				outline	"#000000"
+			]
+			LabelGraphics
+			[
+				text	"o37: RegularEventSpec"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1365,41 +1363,6 @@ graph
 			id	38
 			graphics
 			[
-				w	191.4
-				h	26
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"o38: RegularEventSpec"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
-			id	39
-			graphics
-			[
 				w	279.40000000000003
 				h	54
 				type	"rectangle"
@@ -1409,7 +1372,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o39: ElementReferenceExpression"
+				text	"o38: ElementReferenceExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1434,7 +1397,7 @@ graph
 	
 	node
 		[
-			id	40
+			id	39
 			graphics
 			[
 				w	238.70000000000002
@@ -1446,7 +1409,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o40: Transition"
+				text	"o39: Transition"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1471,7 +1434,7 @@ graph
 	
 	node
 		[
-			id	41
+			id	40
 			graphics
 			[
 				w	182.60000000000002
@@ -1483,7 +1446,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o41: ReactionTrigger"
+				text	"o40: ReactionTrigger"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1506,7 +1469,7 @@ graph
 	
 	node
 		[
-			id	42
+			id	41
 			graphics
 			[
 				w	165.0
@@ -1518,7 +1481,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o42: TimeEventSpec"
+				text	"o41: TimeEventSpec"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1543,7 +1506,7 @@ graph
 	
 	node
 		[
-			id	43
+			id	42
 			graphics
 			[
 				w	261.8
@@ -1555,7 +1518,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o43: PrimitiveValueExpression"
+				text	"o42: PrimitiveValueExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1578,7 +1541,7 @@ graph
 	
 	node
 		[
-			id	44
+			id	43
 			graphics
 			[
 				w	138.60000000000002
@@ -1590,7 +1553,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o44: IntLiteral"
+				text	"o43: IntLiteral"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1614,7 +1577,7 @@ graph
 	
 	node
 		[
-			id	45
+			id	44
 			graphics
 			[
 				w	173.8
@@ -1626,7 +1589,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o45: ReactionEffect"
+				text	"o44: ReactionEffect"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1649,7 +1612,7 @@ graph
 	
 	node
 		[
-			id	46
+			id	45
 			graphics
 			[
 				w	226.60000000000002
@@ -1661,7 +1624,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o46: AssignmentExpression"
+				text	"o45: AssignmentExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1685,7 +1648,7 @@ graph
 	
 	node
 		[
-			id	47
+			id	46
 			graphics
 			[
 				w	279.40000000000003
@@ -1697,7 +1660,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o47: ElementReferenceExpression"
+				text	"o46: ElementReferenceExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1722,7 +1685,7 @@ graph
 	
 	node
 		[
-			id	48
+			id	47
 			graphics
 			[
 				w	261.8
@@ -1734,7 +1697,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o48: PrimitiveValueExpression"
+				text	"o47: PrimitiveValueExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1757,7 +1720,7 @@ graph
 	
 	node
 		[
-			id	49
+			id	48
 			graphics
 			[
 				w	138.60000000000002
@@ -1769,7 +1732,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o49: IntLiteral"
+				text	"o48: IntLiteral"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1793,7 +1756,7 @@ graph
 	
 	node
 		[
-			id	50
+			id	49
 			graphics
 			[
 				w	154.0
@@ -1805,7 +1768,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o50: State"
+				text	"o49: State"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1836,7 +1799,7 @@ graph
 	
 	node
 		[
-			id	51
+			id	50
 			graphics
 			[
 				w	147.4
@@ -1848,7 +1811,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o51: SimpleScope"
+				text	"o50: SimpleScope"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1871,7 +1834,7 @@ graph
 	
 	node
 		[
-			id	52
+			id	51
 			graphics
 			[
 				w	177.10000000000002
@@ -1883,7 +1846,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o52: Transition"
+				text	"o51: Transition"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1908,7 +1871,7 @@ graph
 	
 	node
 		[
-			id	53
+			id	52
 			graphics
 			[
 				w	182.60000000000002
@@ -1920,7 +1883,42 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o53: ReactionTrigger"
+				text	"o52: ReactionTrigger"
+				outline	"#000000"
+				fill	"#FFFFFF"
+				fontSize	16
+				fontName	"Monospace"
+				autoSizePolicy	"node_width"
+				anchor	"t"
+				borderDistance	0.0
+			]
+			LabelGraphics
+			[
+				text	"
+	"
+				fontSize	14
+				fontName	"Consolas"
+				alignment	"left"
+				anchor	"tl"
+				borderDistance	6
+			]
+		]
+	
+	node
+		[
+			id	53
+			graphics
+			[
+				w	191.4
+				h	26
+				type	"rectangle"
+				fill	"#FFFFFF"
+				fill2	"#FFFFFF"
+				outline	"#000000"
+			]
+			LabelGraphics
+			[
+				text	"o53: RegularEventSpec"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -1946,41 +1944,6 @@ graph
 			id	54
 			graphics
 			[
-				w	191.4
-				h	26
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"o54: RegularEventSpec"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
-			id	55
-			graphics
-			[
 				w	279.40000000000003
 				h	54
 				type	"rectangle"
@@ -1990,7 +1953,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o55: ElementReferenceExpression"
+				text	"o54: ElementReferenceExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2015,7 +1978,7 @@ graph
 	
 	node
 		[
-			id	56
+			id	55
 			graphics
 			[
 				w	238.70000000000002
@@ -2027,7 +1990,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o56: Transition"
+				text	"o55: Transition"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2052,7 +2015,7 @@ graph
 	
 	node
 		[
-			id	57
+			id	56
 			graphics
 			[
 				w	182.60000000000002
@@ -2064,7 +2027,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o57: ReactionTrigger"
+				text	"o56: ReactionTrigger"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2087,7 +2050,7 @@ graph
 	
 	node
 		[
-			id	58
+			id	57
 			graphics
 			[
 				w	165.0
@@ -2099,7 +2062,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o58: TimeEventSpec"
+				text	"o57: TimeEventSpec"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2124,7 +2087,7 @@ graph
 	
 	node
 		[
-			id	59
+			id	58
 			graphics
 			[
 				w	261.8
@@ -2136,7 +2099,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o59: PrimitiveValueExpression"
+				text	"o58: PrimitiveValueExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2159,7 +2122,7 @@ graph
 	
 	node
 		[
-			id	60
+			id	59
 			graphics
 			[
 				w	138.60000000000002
@@ -2171,7 +2134,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o60: IntLiteral"
+				text	"o59: IntLiteral"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2195,7 +2158,7 @@ graph
 	
 	node
 		[
-			id	61
+			id	60
 			graphics
 			[
 				w	173.8
@@ -2207,7 +2170,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o61: ReactionEffect"
+				text	"o60: ReactionEffect"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2230,7 +2193,7 @@ graph
 	
 	node
 		[
-			id	62
+			id	61
 			graphics
 			[
 				w	226.60000000000002
@@ -2242,7 +2205,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o62: AssignmentExpression"
+				text	"o61: AssignmentExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2266,7 +2229,7 @@ graph
 	
 	node
 		[
-			id	63
+			id	62
 			graphics
 			[
 				w	279.40000000000003
@@ -2278,7 +2241,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o63: ElementReferenceExpression"
+				text	"o62: ElementReferenceExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2303,7 +2266,7 @@ graph
 	
 	node
 		[
-			id	64
+			id	63
 			graphics
 			[
 				w	261.8
@@ -2315,7 +2278,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o64: PrimitiveValueExpression"
+				text	"o63: PrimitiveValueExpression"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2338,7 +2301,7 @@ graph
 	
 	node
 		[
-			id	65
+			id	64
 			graphics
 			[
 				w	138.60000000000002
@@ -2350,7 +2313,7 @@ graph
 			]
 			LabelGraphics
 			[
-				text	"o65: IntLiteral"
+				text	"o64: IntLiteral"
 				outline	"#000000"
 				fill	"#FFFFFF"
 				fontSize	16
@@ -2363,84 +2326,6 @@ graph
 			[
 				text	"
 	value = 1
-	"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
-			id	66
-			graphics
-			[
-				w	169.4
-				h	138
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"o66: State"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	specification = null
-	namespace = null
-	name = teststate
-	documentation = 
-	orthogonal = false
-	simple = true
-	composite = false
-	leaf = true
-	"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
-			id	67
-			graphics
-			[
-				w	147.4
-				h	26
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"o67: SimpleScope"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
 	"
 				fontSize	14
 				fontName	"Consolas"
@@ -3180,7 +3065,7 @@ graph
 	edge
 	[
 		source	24
-		target	34
+		target	33
 		graphics
 		[
 			fill	"#000000"
@@ -3200,27 +3085,7 @@ graph
 	edge
 	[
 		source	24
-		target	50
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"vertices"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	24
-		target	66
+		target	49
 		graphics
 		[
 			fill	"#000000"
@@ -3413,26 +3278,6 @@ graph
 	]
 	edge
 	[
-		source	27
-		target	33
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"outgoingTransitions"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
 		source	29
 		target	30
 		graphics
@@ -3454,7 +3299,7 @@ graph
 	edge
 	[
 		source	29
-		target	50
+		target	49
 		graphics
 		[
 			fill	"#000000"
@@ -3551,45 +3396,7 @@ graph
 	edge
 	[
 		source	33
-		target	66
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"target"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	33
-		target	27
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"source"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	34
-		target	35
+		target	34
 		graphics
 		[
 			fill	"#000000"
@@ -3608,7 +3415,7 @@ graph
 	]
 	edge
 	[
-		source	34
+		source	33
 		target	24
 		graphics
 		[
@@ -3627,8 +3434,8 @@ graph
 	]
 	edge
 	[
-		source	34
-		target	52
+		source	33
+		target	51
 		graphics
 		[
 			fill	"#000000"
@@ -3646,8 +3453,8 @@ graph
 	]
 	edge
 	[
-		source	34
-		target	40
+		source	33
+		target	39
 		graphics
 		[
 			fill	"#000000"
@@ -3665,7 +3472,47 @@ graph
 	]
 	edge
 	[
-		source	34
+		source	33
+		target	35
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"outgoingTransitions"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	33
+		target	39
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"outgoingTransitions"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	35
 		target	36
 		graphics
 		[
@@ -3675,7 +3522,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"outgoingTransitions"
+			text	"trigger"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3685,17 +3532,35 @@ graph
 	]
 	edge
 	[
-		source	34
-		target	40
+		source	35
+		target	49
 		graphics
 		[
 			fill	"#000000"
-			width	3
 			targetArrow	"standard"
 		]
 		LabelGraphics
 		[
-			text	"outgoingTransitions"
+			text	"target"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	35
+		target	33
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"source"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3715,45 +3580,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"trigger"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	36
-		target	50
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"target"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	36
-		target	34
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"source"
+			text	"triggers"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3773,26 +3600,6 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"triggers"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	38
-		target	39
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
 			text	"event"
 			fontSize	14
 			fontName	"Consolas"
@@ -3803,7 +3610,7 @@ graph
 	]
 	edge
 	[
-		source	39
+		source	38
 		target	7
 		graphics
 		[
@@ -3813,6 +3620,84 @@ graph
 		LabelGraphics
 		[
 			text	"reference"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	39
+		target	40
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"trigger"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	39
+		target	44
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"effect"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	39
+		target	33
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"target"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	39
+		target	33
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"source"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3832,65 +3717,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"trigger"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	40
-		target	45
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"effect"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	40
-		target	34
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"target"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	40
-		target	34
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"source"
+			text	"triggers"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3910,7 +3737,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"triggers"
+			text	"value"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3940,8 +3767,8 @@ graph
 	]
 	edge
 	[
-		source	43
-		target	44
+		source	44
+		target	45
 		graphics
 		[
 			fill	"#000000"
@@ -3950,7 +3777,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"value"
+			text	"actions"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -3970,26 +3797,6 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"actions"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	46
-		target	47
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
 			text	"varRef"
 			fontSize	14
 			fontName	"Consolas"
@@ -4000,8 +3807,8 @@ graph
 	]
 	edge
 	[
-		source	46
-		target	48
+		source	45
+		target	47
 		graphics
 		[
 			fill	"#000000"
@@ -4020,7 +3827,7 @@ graph
 	]
 	edge
 	[
-		source	47
+		source	46
 		target	14
 		graphics
 		[
@@ -4039,8 +3846,8 @@ graph
 	]
 	edge
 	[
-		source	48
-		target	49
+		source	47
+		target	48
 		graphics
 		[
 			fill	"#000000"
@@ -4059,8 +3866,8 @@ graph
 	]
 	edge
 	[
-		source	50
-		target	51
+		source	49
+		target	50
 		graphics
 		[
 			fill	"#000000"
@@ -4079,7 +3886,7 @@ graph
 	]
 	edge
 	[
-		source	50
+		source	49
 		target	24
 		graphics
 		[
@@ -4098,7 +3905,7 @@ graph
 	]
 	edge
 	[
-		source	50
+		source	49
 		target	29
 		graphics
 		[
@@ -4117,8 +3924,8 @@ graph
 	]
 	edge
 	[
-		source	50
-		target	36
+		source	49
+		target	35
 		graphics
 		[
 			fill	"#000000"
@@ -4136,8 +3943,8 @@ graph
 	]
 	edge
 	[
-		source	50
-		target	56
+		source	49
+		target	55
 		graphics
 		[
 			fill	"#000000"
@@ -4155,7 +3962,47 @@ graph
 	]
 	edge
 	[
-		source	50
+		source	49
+		target	51
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"outgoingTransitions"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	49
+		target	55
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"outgoingTransitions"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	51
 		target	52
 		graphics
 		[
@@ -4165,7 +4012,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"outgoingTransitions"
+			text	"trigger"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4175,17 +4022,35 @@ graph
 	]
 	edge
 	[
-		source	50
-		target	56
+		source	51
+		target	33
 		graphics
 		[
 			fill	"#000000"
-			width	3
 			targetArrow	"standard"
 		]
 		LabelGraphics
 		[
-			text	"outgoingTransitions"
+			text	"target"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	51
+		target	49
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"source"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4205,45 +4070,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"trigger"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	52
-		target	34
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"target"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	52
-		target	50
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"source"
+			text	"triggers"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4263,26 +4090,6 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"triggers"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	54
-		target	55
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
 			text	"event"
 			fontSize	14
 			fontName	"Consolas"
@@ -4293,7 +4100,7 @@ graph
 	]
 	edge
 	[
-		source	55
+		source	54
 		target	5
 		graphics
 		[
@@ -4303,6 +4110,84 @@ graph
 		LabelGraphics
 		[
 			text	"reference"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	55
+		target	56
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"trigger"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	55
+		target	60
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"effect"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	55
+		target	49
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"target"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	55
+		target	49
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"source"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4322,65 +4207,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"trigger"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	56
-		target	61
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"effect"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	56
-		target	50
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"target"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	56
-		target	50
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"source"
+			text	"triggers"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4400,7 +4227,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"triggers"
+			text	"value"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4430,8 +4257,8 @@ graph
 	]
 	edge
 	[
-		source	59
-		target	60
+		source	60
+		target	61
 		graphics
 		[
 			fill	"#000000"
@@ -4440,7 +4267,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"value"
+			text	"actions"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
@@ -4460,26 +4287,6 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"actions"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	62
-		target	63
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
 			text	"varRef"
 			fontSize	14
 			fontName	"Consolas"
@@ -4490,8 +4297,8 @@ graph
 	]
 	edge
 	[
-		source	62
-		target	64
+		source	61
+		target	63
 		graphics
 		[
 			fill	"#000000"
@@ -4510,7 +4317,7 @@ graph
 	]
 	edge
 	[
-		source	63
+		source	62
 		target	9
 		graphics
 		[
@@ -4529,8 +4336,8 @@ graph
 	]
 	edge
 	[
-		source	64
-		target	65
+		source	63
+		target	64
 		graphics
 		[
 			fill	"#000000"
@@ -4540,64 +4347,6 @@ graph
 		LabelGraphics
 		[
 			text	"value"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	66
-		target	67
-		graphics
-		[
-			fill	"#000000"
-			width	3
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"scopes"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	66
-		target	24
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"parentRegion"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	66
-		target	33
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"incomingTransitions"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
