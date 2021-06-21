@@ -22,6 +22,9 @@ public class Main {
 		// Loading model
 		EObject root = manager.loadModel("model_input/example.sct");
 		
+		// previous state
+		State statePrev = null;
+		
 		// Reading model
 		Statechart s = (Statechart) root;
 		TreeIterator<EObject> iterator = s.eAllContents();
@@ -29,13 +32,31 @@ public class Main {
 			EObject content = iterator.next();
 			if(content instanceof State) {
 				State state = (State) content;
-				System.out.println(state.getName());
+				if(statePrev != null)
+					System.out.println(statePrev.getName()+" -> "+state.getName());
+				statePrev = state;
 			}
 		}
+		
+		// check if statechart has trap state
+		hasTrap(s);
 		
 		// Transforming the model into a graph representation
 		String content = model2gml.transform(root);
 		// and saving it
 		manager.saveFile("model_output/graph.gml", content);
+	}
+	
+	public static void hasTrap(Statechart s) {
+		TreeIterator<EObject> it = s.eAllContents();
+		while (it.hasNext()) {
+			EObject obj = it.next();
+			if(obj instanceof State) {
+				State state = (State) obj;
+				if (state.getOutgoingTransitions().isEmpty() == true) {
+					System.out.println(state.getName()+" is a trap state!");
+				}
+			}
+		}
 	}
 }
